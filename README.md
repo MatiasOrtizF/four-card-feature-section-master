@@ -26,8 +26,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [https://github.com/mat1asortiz/four-card-feature-section-master.git](https://github.com/mat1asortiz/four-card-feature-section-master.git)
-- Live Site URL: [https://mat1asortiz.github.io/four-card-feature-section-master/](https://mat1asortiz.github.io/four-card-feature-section-master/)
+- Solution URL: [https://github.com/mat1asortiz/four-card-feature-section-master](https://github.com/mat1asortiz/four-card-feature-section-master)
+- Live Site URL: [https://mat1asortiz.github.io/four-card-feature-section-master](https://mat1asortiz.github.io/four-card-feature-section-master)
 
 ## My process
 
