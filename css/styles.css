@@ -42,12 +42,14 @@ p {
     font-size: 15px;
     color: var(--grayishBlue);
 }
+.atributte {
+    margin: 30px auto;
+    padding: 0px 30px;
+}
 .grid {
     max-width: 1200px;
 }
-.texto {
-    padding: 0px 20em;
-}
+
 .texto p {
     font-size: 16px;
 }
@@ -59,6 +61,7 @@ p:first-child {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     padding: 50px 0px;
+    gap: 30px;
 }
 .cajas > div:first-child {
     align-self: center;
@@ -77,7 +80,7 @@ p:first-child {
 }
 .box {
     background-color: white;
-    margin: 30px 20px;
+    margin: 30px 0px;
     text-align: start;
     border-radius: 5px;
     padding: 30px;
@@ -89,4 +92,46 @@ p:first-child {
 .imagen {
     margin-top: 2em;
     text-align: right;
+}
+
+@media (max-width: 768px) {
+    .atributte {
+        margin: 90px auto;
+    }
+    .texto {
+        padding: 0px;
+    }
+    p:first-child {
+        font-size: 2em;
+    }
+    h1 {
+        font-size: 2em;
+    }
+    .cajas {
+        display: grid;
+        grid-template-columns: 1fr;
+        padding-bottom: 0px;
+    }
+    .cajas-medio {
+        display: flex;
+        flex-direction: column;
+    }
+    .box {
+        margin: 30px 0px;
+    }
+}
+
+@media (max-width: 600px) {
+    p:first-child {
+        font-size: 1.5em;
+    }
+    h1 {
+        font-size: 1.5em;
+    }
+    .cajas {
+        gap: 0px;
+    }
+    .box {
+        margin-bottom: 0px;
+    }
 }
